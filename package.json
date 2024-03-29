@@ -1,0 +1,18 @@
+{
+  "name": "powerofgman",
+  "version": "1.0.0",
+  "description": "A node program to calculate power of Gman",
+  "main": "index.js",
+  "scripts": {
+    "start": "node geektrust.js",
+    "test": "mocha",
+    "test-with-coverage": "nyc --reporter=html --reporter=text mocha geektrust.test.js"
+  },
+  "author": "Titan",
+  "license": "ISC",
+  "dependencies": 
+  {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
+  }
+}
